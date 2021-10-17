@@ -1,6 +1,6 @@
 !["The Evolution of Trust"](https://raw.githubusercontent.com/zero0200-git/trust_TH-th/gh-pages/social/githubpage.png)
 
-#	PLAY IT HERE: [zero0200-git.github.io/trust_th-th/)
+#	PLAY IT HERE: [zero0200-git.github.io/trust_th-th/](zero0200-git.github.io/trust_th-th/)
 
 *The Evolution of Trust* is dedicated to the public domain, and is made thanks to the many Creative Commons & open source resources out there! Here is a full list of music, sounds, and code used:
 
