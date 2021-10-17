@@ -1,6 +1,6 @@
-!["The Evolution of Trust"](https://i.imgur.com/kde760y.png)
+!["The Evolution of Trust"](https://raw.githubusercontent.com/zero0200-git/trust_TH-th/gh-pages/social/githubpage.png)
 
-#	PLAY IT HERE: [http://ncase.me/trust/](http://ncase.me/trust/)
+#	PLAY IT HERE: [zero0200-git.github.io/trust_th-th/)
 
 *The Evolution of Trust* is dedicated to the public domain, and is made thanks to the many Creative Commons & open source resources out there! Here is a full list of music, sounds, and code used:
 
@@ -29,7 +29,9 @@
 * [MinPubSub](https://github.com/daniellmb/MinPubSub) for publish/subscribe
 * [Pegasus](https://github.com/typicode/pegasus) for me being too lazy to write my own XHR
 
-**Font:** [Futura Handwritten](http://www.dafont.com/futurahandwritten.font) by Bill Snyder
+**Font:**
+[Futura Handwritten](http://www.dafont.com/futurahandwritten.font) by Bill Snyder
+[Itim Font](https://github.com/cadsondemak/itim) by Cadson Demak
 
 #	How-To: Translate this thang!
 
@@ -99,4 +101,4 @@ Translations done so far:
 
 #	"LICENSE"
 
-[Creative Commons Zero](https://github.com/ncase/trust/blob/gh-pages/LICENSE): it's a public domain dedication, so basically, do whatever you want! Attribution is super appreciated, but I'm not gonna send legal goons after you or anything.
+[Creative Commons Zero](https://github.com/zero0200-git/trust_TH-th/blob/gh-pages/LICENSE): it's a public domain dedication, so basically, do whatever you want! Attribution is super appreciated, but I'm not gonna send legal goons after you or anything.
