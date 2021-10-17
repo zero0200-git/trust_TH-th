@@ -1,66 +1,35 @@
-<!--
-
-TRANSLATION GUIDE:
-https://github.com/ncase/trust#how-to-translate-this-thang
-
-Hello fan-translaters!
-First off, thank you so much for taking the time to help out,
-I super appreciate it. :3 Anyway, to make translation a bit easier
-(or at least less painful) I've scattered comments about on
-what things you should translate, plus any additional info
-
-Translate the following files:
-
-    index.html - The title & social sharing text (a few words)
-    words.html - All the words for the interactive itself (~3,300 words)
-    (optional) notes/index.html - The footnotes (~1,100 words)
-    (optional) peeps/index.html - The full credits (a few words)
-
-Many thanks again!
-
-<3,
-~ Nicky Case
-
--->
 <!doctype>
 <html>
 <head>
-
-	<!-- TO TRANSLATE: "title", "description" -->
-	<title>The Evolution of Trust</title>
-	<meta name="description" content="an interactive guide to the game theory of why &amp; how we trust each other"/>
+	<title>วิวัฒนาการของความเชื่อใจ</title>
+	<meta name="description" content="ไกด์เกี่ยวกับทฤษฎีที่ว่าทำไมถึงเชื่อใจและเชื่อใจกันและกันยังไง ในรูปแบบของเกม"/>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
 	<meta content="utf-8" http-equiv="encoding">
 	<meta charset="utf-8">
 	<link rel="icon" type="image/png" href="favicon.png">
 
-	<!-- TO TRANSLATE: "name", "description" -->
-	<meta itemprop="name" content="The Evolution of Trust">
-	<meta itemprop="description" content="an interactive guide to the game theory of why &amp; how we trust each other">
-	<meta itemprop="image" content="http://ncase.me/trust/social/thumbnail.png">
+	<meta itemprop="name" content="วิวัฒนาการของความเชื่อใจ">
+	<meta itemprop="description" content="ไกด์เกี่ยวกับทฤษฎีที่ว่าทำไมถึงเชื่อใจและเชื่อใจกันและกันยังไง ในรูปแบบของเกม">
+	<meta itemprop="image" content="https://zero0200-git.github.io/trust_th-th/social/thumbnail.png">
 
-	<!-- TO TRANSLATE: "name", "description" -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ncasenmare">
-	<meta name="twitter:title" content="The Evolution of Trust">
-	<meta name="twitter:description" content="an interactive guide to the game theory of why &amp; how we trust each other">
+	<meta name="twitter:title" content="วิวัฒนาการของความเชื่อใจ">
+	<meta name="twitter:description" content="ไกด์เกี่ยวกับทฤษฎีที่ว่าทำไมถึงเชื่อใจและเชื่อใจกันและกันยังไง ในรูปแบบของเกม">
 	<meta name="twitter:creator" content="@ncasenmare">
-	<meta name="twitter:image" content="http://ncase.me/trust/social/thumbnail.png">
+	<meta name="twitter:image" content="https://zero0200-git.github.io/trust_th-th/social/thumbnail.png">
 
-	<!-- TO TRANSLATE: "name", "description" -->
-	<meta property="og:title" content="The Evolution of Trust">
+	<meta property="og:title" content="วิวัฒนาการของความเชื่อใจ">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="http://ncase.me/trust/">
-	<meta property="og:image" content="http://ncase.me/trust/social/thumbnail.png">
-	<meta property="og:description" content="an interactive guide to the game theory of why &amp; how we trust each other">
+	<meta property="og:url" content="http:///trust/">
+	<meta property="og:image" content="https://zero0200-git.github.io/trust_th-th/social/thumbnail.png">
+	<meta property="og:description" content="ไกด์เกี่ยวกับทฤษฎีที่ว่าทำไมถึงเชื่อใจและเชื่อใจกันและกันยังไง ในรูปแบบของเกม">
 
-	<!-- Styles -->
 	<link rel="stylesheet" href="css/slides.css?v11">
 	<link rel="stylesheet" href="css/balloon.css?v11">
-
 </head>
 <body>
-	<div id="preloader">loading...</div> <!-- TRANSLATE THIS -->
+	<div id="preloader">กำลังโหลด...</div>
 	<div style="display:none" id="main">
 		<div id="slideshow_container">
 			<div id="slideshow"></div>
@@ -70,21 +39,18 @@ Many thanks again!
 	<div style="display:none" id="footer">
 		<div id="sound" sound="on" class="no-select">
 			<div id="sound_icon"></div>
-			<div id="sound_on">ON</div> <!-- TRANSLATE THIS -->
-			<div id="sound_off">OFF</div> <!-- TRANSLATE THIS -->
+			<div id="sound_on">เปิดเสียง</div>
+			<div id="sound_off">ปิดเสียง</div>
 		</div>
 		<div id="select"></div>
+		<sharing title="วิวัฒนาการของความเชื่อใจ"
+				 text="ผู้คนไม่เชื่อใจกันอีกต่อไป ทำไมกันนะ? แล้วเราจะแก้ไขมันได้อย่างไร? นี่คือไกด์เกี่ยวกับทฤษฎีแห่งความเชื่อใจ ในรูปแบบของเกม:"
+				 link="https://zero0200-git.github.io/trust_th-th/"></sharing>
 
-		<!-- TRANSLATE "title" & "text". Make sure it's less than 112 characters, for Twitter's sake -->
-		<!-- Also, change "link" to whatever the link for the translated version will be! -->
-		<sharing title="The Evolution of Trust"
-				 text="People no longer trust each other. Why? And how can we fix it? An interactive guide to the game theory of trust:"
-				 link="http://ncase.me/trust/"></sharing>
-
-		<!-- List of translations thus far! -->
 		<div id="translations">
-			fan-translations:
-			<a href="https://github.com/ncase/trust#how-to-translate-this-thang" target="_blank">(add one!)</a>&nbsp;
+			<a href="http://ncase.me/trust/"><b>Original(English)</b></a>&nbsp;
+			การแปลจากแฟนๆ:
+			<a href="https://github.com/ncase/trust#how-to-translate-this-thang" target="_blank">(เพิ่มภาษา!)</a>&nbsp;
 			<a href="https://ccamara.github.io/trust/">Español de España</a>&nbsp;
 			<a href="https://maeriens.github.io/trust/">Español Latino</a>&nbsp;
 			<a href="https://ayowel.github.io/trust/">Français</a>&nbsp;
@@ -121,14 +87,13 @@ Many thanks again!
 			<a href="https://sekai.co/trust/">中文（简体）</a>&nbsp;
 			<a href="https://audreyt.github.io/trust-zh-TW/">中文（臺灣）</a>	&nbsp;
 			<a href="https://hamed.github.io/trust/">فارسی</a>&nbsp;
-			<a href="https://mudaraljundi.github.io/trust/">العربية</a>
+			<a href="https://mudaraljundi.github.io/trust/">العربية</a>&nbsp;
+			<a href="http://zero0200-git.github.io/trust_th-th/">ไทย</a>
 		</div>
-
 	</div>
 </body>
 </html>
 
-<!-- Libraries -->
 <script src="js/lib/helpers.js?v11"></script>
 <script src="js/lib/pegasus.js?v11"></script>
 <script>var c_ = {};</script>
@@ -141,7 +106,6 @@ Many thanks again!
 <script>Ticker.framerate=60; Ticker.paused=true;</script>
 <script src="js/lib/sharing.js?v11"></script>
 
-<!-- Core Engine -->
 <script src="js/core/Loader.js?v11"></script>
 <script src="js/core/Slideshow.js?v11"></script>
 <script src="js/core/SlideSelect.js?v11"></script>
@@ -155,14 +119,12 @@ Many thanks again!
 <script src="js/core/ImageBox.js?v11"></script>
 <script src="js/core/PayoffsUI.js?v11"></script>
 
-<!-- Simulations -->
 <script src="js/sims/Splash.js?v11"></script>
 <script src="js/sims/PD.js?v11"></script>
 <script src="js/sims/Iterated.js?v11"></script>
 <script src="js/sims/Tournament.js?v11"></script>
 <script src="js/sims/SandboxUI.js?v11"></script>
 
-<!-- Slides -->
 <script src="js/slides/0_Slides_Intro.js?v11"></script>
 <script src="js/slides/1_Slides_OneOff.js?v11"></script>
 <script src="js/slides/2_Slides_Iterated.js?v11"></script>
@@ -174,5 +136,4 @@ Many thanks again!
 <script src="js/slides/8_Slides_Conclusion.js?v11"></script>
 <script src="js/slides/9_Slides_Credits.js?v11"></script>
 
-<!-- Main Code -->
 <script src="js/main.js?v11"></script>
